@@ -1,0 +1,9 @@
+# Core dependencies
+pyyaml==6.0.2        # For reading config.yml
+pydantic==2.9.2      # For schema validation (customer payload, state)
+requests==2.32.3     # For MCP client HTTP/API calls
+rich==13.9.2         # For pretty logs in terminal
+
+# Optional (useful during development & demo)
+loguru==0.7.2        # Cleaner logging
+pytest==8.3.3        # For testing stages and state persistence
